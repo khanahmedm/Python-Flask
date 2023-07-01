@@ -128,9 +128,9 @@ frank = Dog(breed='Huskie')
 # Now we have created two instances of the Dog class. With two breed types, we
 # can then access these attributes like this:
 
-sam.breed
+print(sam.breed)
 
-frank.breed
+print(frank.breed)
 
 
 # Note how we don't have any parenthesis after breed, this is because it is an
@@ -153,13 +153,13 @@ class Dog():
 
 sam = Dog('Lab','Sam')
 
-sam.name
+print(sam.name)
 
 
 # Note that the Class Object Attribute is defined outside of any methods in the
 # class. Also by convention, we place them first before the init.
 
-sam.species
+print(sam.species)
 
 ###################
 # Methods
